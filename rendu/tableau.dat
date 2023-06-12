@@ -1,0 +1,16 @@
+<table>
+<caption>
+<tbody>
+<tr>
+<th>Nom Produit</th>
+<th>Vente du trimestre</th>
+<th>Chiffre d'affaires du trimestre</th>
+<th>Ventes du même trimestre année précédente</th>
+<th>CA du même trimestre année précédente</th>
+<th>Evolution de CA</th>
+</tr>
+
+</tbody>
+</caption>
+</table>
+

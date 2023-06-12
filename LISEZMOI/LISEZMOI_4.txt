@@ -1,0 +1,24 @@
+LISEZMOI_4 : génération des pages HTML à partir des fichier .txt contenant les informations fournies par le client
+
+Prérequis :
+
+Nécessite d'avoir php d'installé (si ce n'est pas le cas lancer la commande dans votre terminal : 'sudo apt install php') 
+Assurez vous d'avoir lancé main.php au préalable
+
+Il faut également que les fichiers fournis soient en format .txt 
+
+
+
+Fonctionnement :
+
+Ce script va lire les fichiers .dat (générés par main.php) et les fichiers .txt, le script va ensuite créer un fichier html pour chaque fichier .txt existants. 
+
+Pour lancer le script php (fusion.php) vous devez lancer dans votre terminal la commande (en prenant garde de vous diriger dans le dossier courant
+où se situent les scripts) :
+
+php fusion.php
+
+
+
+Résultats : 
+A la suite de cette commande, les pages html correspondants aux fichiers .txt se trouveront dans le dossier 'dossier_html'

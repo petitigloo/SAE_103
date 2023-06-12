@@ -1,0 +1,22 @@
+Prérequis :
+
+Vous devez avoir Docker d’installé au préalable. Si ce n’est pas encore fait cliquez sur le lien (https://docs.docker.com/desktop/install/linux-install/)
+
+Placez les logos des régions dans un dossier nommé 'logos'
+Placez les photos des vendeurs dans un dossier nommé 'photos'
+Placez les fichiers textes contenant les informations sur les régions et sur les vendeurs dans un dossier nommé 'textes'
+
+
+
+Fonctionnement :
+
+Pour lancer le script Bash (script_final.sh) saisir la commande (en prenant garde de vous diriger dans le dossier courant
+où se situent les scripts et tous les dossiers):
+
+bash ./html2pdf.sh
+
+
+
+Résultats :
+
+Vous trouverez un fichier archive 'pdf.tar.gz' créé par le script html2pdf.sh regroupant tout les pdf contenus dans le dossier 'pdf'.

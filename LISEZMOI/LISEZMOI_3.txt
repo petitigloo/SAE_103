@@ -1,0 +1,26 @@
+LISEZMOI_3 : génération des QRCODES
+
+
+Prérequis :
+
+Vous devez avoir Docker d’installé au préalable. Si ce n’est pas encore fait cliquez sur le lien (https://docs.docker.com/desktop/install/linux-install/)
+
+
+
+Fonctionnement :
+
+Pour lancer le script Bash (gen_qrcode.sh) lancez les commandes suivantes depuis votre terminal (en prenant garde de vous diriger dans le dossier courant
+où se situent les scripts): 
+
+docker image pull bigpapoo/sae103-qrcode
+bash ./gen_qrcode.sh
+
+
+
+ATTENTION ce script Bash a besoin de tous les fichiers .png présents dans le dossier 'logos', veuillez ne laisser que les logos dans ce dossier.
+
+
+
+Résultats : 
+
+Vous trouverez de nouveaux fichiers qrcode (.png) dans le dossier qrcode_fic créé par le script gen_qrcode.sh.

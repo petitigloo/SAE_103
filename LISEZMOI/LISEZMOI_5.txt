@@ -1,0 +1,24 @@
+LISEZMOI_5 : génération des pdf à partir des fichiers HTML
+
+Prérequis :
+
+Vous devez avoir Docker d’installé au préalable. Si ce n’est pas encore fait cliquez sur le lien (https://docs.docker.com/desktop/install/linux-install/)
+
+
+
+Fonctionnement :
+
+Pour lancer le script Bash (html2pdf.sh), saisissez les commandes suivantes depuis votre terminal (en prenant garde de vous diriger dans le dossier courant
+où se situent les scripts): 
+
+docker image pull bigpapoo/sae103-html2pdf
+bash ./html2pdf.sh
+
+
+
+ATTENTION ce script Bash prend tous les fichiers HTML présents dans le 'dossier_hhtml', veuillez ne laisser que les fichiers html que vous voulez convertir.
+
+Résultats : 
+
+Vous trouverez de nouveaux fichiers (.pdf) dans le dossier pdf ainsi qu'un fichier archive pdf.tar.gz créée par le script html2pdf.sh regroupant 
+tout les pdf contenu dans le dossier pdf.

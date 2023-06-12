@@ -1,0 +1,23 @@
+LISEZMOI_2 : génération d'images modifiées pour correspondre au bon format
+
+Prérequis :
+
+Vous devez avoir Docker d’installé au préalable. Si ce n’est pas encore fait cliquez sur le lien (https://docs.docker.com/desktop/install/linux-install/)
+
+
+
+Fonctionnement :
+
+Pour lancer le script Bash (conversion_img.sh), saisissez les commandes suivantes depuis un terminal (en prenant garde de vous diriger dans le dossier courant
+où se situent les scripts) : 
+
+docker image pull bigpapoo/sae103-imagick
+bash ./conversion_img.sh
+
+
+
+ATTENTION ce script Bash prend tous les fichiers .svg présents dans le dossier, veuillez ne laisser que les photos que vous voulez convertir.
+
+Résultats :
+
+Vous trouverez les images au bon format (de la bonne taille, en noir et blanc et en .png) dans le dossier 'photo_modif' contenu dans le dossier 'photos'.

@@ -1,0 +1,10 @@
+Maxime MARTIN : réalisation du script PHP fusion.php (25%)
+
+Lilwen MALESTROIT : réalisation du script PHP fusion.php (25%)
+
+Elise MOALIGOU : réalisation du script gen_qrcode (15%)
+
+Ewen FILY : réalisation des scripts conversion_img.sh et html2pdf.sh et ajustement du script gen_qrcode.sh. 
+		réalisation fichiers texte LISEZMOI_2.txt,LISEZMOI_3.txt,LISEZMOI_5.txt,LISEZMOI_FINAL et TACHES_2.txt (35%)
+
+Néo LECAPITAINE : n'a pas donné de signe de vie  (0%)

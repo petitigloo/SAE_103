@@ -1,0 +1,219 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+    /*  SECTION  */
+
+section {
+    position: relative;
+    width: 100em;
+    height: 100em;
+}
+
+    /*  PIED DE PAGE  */
+
+.bottom {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    border: 1px dotted red;
+    min-height: 5rem;
+    font-size: 0.8em;
+}
+
+/*------------------------------------------------------------------------*/
+
+    /*  PAGE DE COUVERTURE  */
+.PageCouverture {
+    display: flex;
+    flex-direction: column;
+}
+
+.PageCouverture > h4 {
+    padding: 1em 0 0 1em;
+}
+
+.PageCouverture > h4 > span {
+    font-style: italic;
+}
+
+.PageCouverture > h1 {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.PageCouverture > h1 > strong {
+    text-transform: uppercase;
+}
+
+.PageCouverture > ul {
+    position: relative;
+    right: -8em;
+    margin-top: 5em;
+    list-style-type: square; 
+}
+
+.PageCouverture > img {
+    position: relative;
+    margin: 5%;
+    align-self: center;
+    width: 400px;
+    height: auto;
+}
+
+
+    /*  COMMUN  */
+
+h2 {
+    padding-top: 1.4em;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+    /*  PAGE 1  */
+
+.Page1 > h3, 
+.Page1 > h4,
+.Page1 > p, 
+.Page1 > table {
+    margin: 0 1em 0 1em;
+}
+.Page1 > h3 {
+    margin-top : 0.5em; 
+    margin-bottom: 0.5em;
+    font-variant: small-caps;
+}
+
+.Page1 > p {
+    text-indent: 50px;
+    text-align: justify;
+
+}
+
+.Page1 > .paragraphe {
+    width: 100%;
+    max-height: 60%;
+    overflow: hidden;
+}
+
+.Page1 > article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Page1 > article > table {
+    margin-top: 1em;
+}
+
+.Page1 > article > table > caption {
+    color: rgb(182, 13, 13);
+    font-weight: bold;
+}
+
+.Page1 th {
+    background-color: rgb(113, 114, 113);
+    color: white;
+    padding: 10px;
+}
+
+.Page1 tr {
+    text-align: center;
+}
+
+.Page1 .negatif0, 
+.Page1 .negatif1,
+.Page1 .negatif2,
+.Page1 .negatif3,
+.Page1 .negatif4,
+.Page1 .negatif5,
+.Page1 .negatif6 {
+    color: green; 
+}
+
+.Page1 .negatif0.active,
+.Page1 .negatif1.active,
+.Page1 .negatif2.active,
+.Page1 .negatif3.active,
+.Page1 .negatif4.active,
+.Page1 .negatif5.active,
+.Page1 .negatif6.active {
+    color: red; 
+}
+
+    /*  PAGE 2 */
+
+.Page2 > ul {
+    width: 8.26in;
+    display: flex;
+    margin-top: 1em;
+    margin-left: 0;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.Page2 > ul > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5em; 
+}
+
+.Page2 h3 {
+  /*  width: 16em;*/
+  width: 100%;
+}
+
+.Page2 > ul > div > img {
+    
+    width: 200px;
+    height: auto;
+}
+
+.Page2 > ul > div > li {
+    margin-top: 15px; 
+    padding: 1em;
+    width: 100%;
+}
+
+
+    /*  PAGE 3 */
+
+.Page3 > p {
+    text-align: center;
+    margin: 1em;
+    margin-top: 6em;
+}
+
+.Page3 > aside {
+    display: flex;
+    justify-content: center;
+}
+
+.Page3 > aside > img {
+    width: 250px;
+    height: auto;
+}
+
+/* @page { size: A4 } */
+
+@media print {
+    section {
+       border: 1px solid black;
+       width: 8.26in;
+       height: 11.66in;
+       margin: 0;
+       /* change the margins as you want them to be. */
+       page-break-after: always;
+    }
+ }
